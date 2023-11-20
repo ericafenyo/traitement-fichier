@@ -21,7 +21,7 @@ public class Preconditions {
     }
 
     public static boolean withinRange(int value, int min, int max) {
-        return (value >= 1 && value <= 9);
+        return (value >= min && value <= max);
     }
 
     public static boolean isMax(String value, int max) {
